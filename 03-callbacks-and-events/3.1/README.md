@@ -4,3 +4,9 @@ Modify the asynchronous `FindRegex` class so that it emits an event when the fin
 passing the input files list as an argument.
 
 HINT: beware of Zalgo!
+
+To run the solution launch:
+
+```bash
+node index.js
+```
