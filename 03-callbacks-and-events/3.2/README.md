@@ -5,3 +5,8 @@ The function will return an `EventEmitter` that emits an event called `tick` eve
 The function will also call the `callback` when the `number` of milliseconds has passed, providing, as the result, the total count of `tick` events emitter. 
 
 HINT: you can use `setTimeouot()` to schedule another `setTimeout` recursively.
+
+To run the solution launch:
+```bash
+node index.js
+```
