@@ -15,6 +15,7 @@ class FindRegex extends EventEmitter {
 
   find () {
     process.nextTick(() => this.emit('start', this.files));
+
     for (const file of this.files) {
       readFile(file, 'utf8', (err, content) => {
         if (err) {
