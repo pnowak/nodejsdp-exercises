@@ -5,8 +5,8 @@ function ticker (number, callback) {
   const timeout = 50;
   let totalCountOfTicks = 0;
   let countOfTicks = 0;
-  //3.3 process.nextTick(() => emitter.emit('tick', totalCountOfTicks));
 
+  process.nextTick(() => emitter.emit('tick', totalCountOfTicks));
 
   function increment() {
     countOfTicks += 1;
