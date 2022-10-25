@@ -8,5 +8,5 @@ HINT: beware of Zalgo!
 To run the solution launch:
 
 ```bash
-node index.js
+node index.ts
 ```
