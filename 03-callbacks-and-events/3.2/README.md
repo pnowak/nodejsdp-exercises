@@ -8,5 +8,5 @@ HINT: you can use `setTimeouot()` to schedule another `setTimeout` recursively.
 
 To run the solution launch:
 ```bash
-node index.js
+ts-node index.ts
 ```
