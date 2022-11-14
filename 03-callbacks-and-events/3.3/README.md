@@ -4,5 +4,5 @@ Modify the function created in exercise 3.2 so that it emits a `tick` event imme
 
 To run the solution launch:
 ```bash
-node index.js
+npm run start
 ```
